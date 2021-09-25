@@ -1,0 +1,16 @@
+name       : python-getkey
+version    : 0.6.5
+release    : 1
+source     :
+    - https://pypi.io/packages/source/g/getkey/getkey-0.6.5.tar.gz : 68c7c702c3b34deacf427f6c0f1fd66c5c2aa12d7801aa32442fc1a71c8ce059
+license    : MIT
+component  : programming.python
+summary    : Read single characters and key-strokes
+description: |
+    This library seems to have started as a gist by Danny Yoo & made the rounds in various versions until Miguel Ángel García turned it into a portable package for their python-inquirer project. Then K.C.Saff forked it & smashed it into this new form for their own command line input library.
+builddeps  :
+    - flake8
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

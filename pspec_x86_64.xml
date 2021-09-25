@@ -1,0 +1,46 @@
+<PISI>
+    <Source>
+        <Name>python-getkey</Name>
+        <Packager>
+            <Name>Maik Wöhl</Name>
+            <Email>maik.woehl@outlook.de</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Read single characters and key-strokes</Summary>
+        <Description xml:lang="en">This library seems to have started as a gist by Danny Yoo &amp; made the rounds in various versions until Miguel Ángel García turned it into a portable package for their python-inquirer project. Then K.C.Saff forked it &amp; smashed it into this new form for their own command line input library.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-getkey</Name>
+        <Summary xml:lang="en">Read single characters and key-strokes</Summary>
+        <Description xml:lang="en">This library seems to have started as a gist by Danny Yoo &amp; made the rounds in various versions until Miguel Ángel García turned it into a portable package for their python-inquirer project. Then K.C.Saff forked it &amp; smashed it into this new form for their own command line input library.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey-0.6.5-py3.9.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey-0.6.5-py3.9.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey-0.6.5-py3.9.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey-0.6.5-py3.9.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey-0.6.5-py3.9.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/__pycache__/__init__.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/__pycache__/keynames.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/__pycache__/platforms.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/__pycache__/unikeys.cpython-39.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/keynames.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/platforms.py</Path>
+            <Path fileType="library">/usr/lib/python3.9/site-packages/getkey/unikeys.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-09-17</Date>
+            <Version>0.6.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Maik Wöhl</Name>
+            <Email>maik.woehl@outlook.de</Email>
+        </Update>
+    </History>
+</PISI>
